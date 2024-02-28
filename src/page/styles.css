@@ -1,0 +1,52 @@
+/* styles.css */
+
+.notifications-container {
+    padding: 20px;
+}
+
+.notification {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.notification .notification-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.notification .notification-header .notification-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.notification .notification-content {
+    margin-top: 10px;
+}
+
+.notification .notification-footer {
+    margin-top: 10px;
+}
+
+.notification .view-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style pour les notifications ouvertes */
+.notification.opened {
+    background-color: yellow;
+     /* Couleur de fond pour les notifications ouvertes */
+}
+
+/* Style pour les notifications non ouvertes */
+.notification.not-opened {
+    background-color: #f0f0f0;
+     /* Couleur de fond pour les notifications ouvertes */
+}
